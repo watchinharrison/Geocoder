@@ -218,6 +218,7 @@ class GoogleMapsProvider extends AbstractProvider implements LocaleAwareProvider
                 break;
 
             case 'locality':
+            case 'postal_town':
                 $resultset['city'] = $values->long_name;
                 break;
 
